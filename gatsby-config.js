@@ -15,15 +15,14 @@ module.exports = {
       { name: "About", to: "/about" },
     ],
     links: {
-      facebook: "https://www.facebook.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://pinterest.com/",
-      twitter: "https://twitter.com/",
+      instagram: "https://www.instagram.com/riccardoc_photography",
+      flickr: "https://www.flickr.com/photos/194537004@N03",
+      mail: "mailto:riccardocalligaro@gmail.com",
     },
     locale: "en",
-    title: `John Doe`,
-    description: `Photography portfolio of John Doe`,
-    author: `@johndoe`,
+    title: `Riccardo Calligaro`,
+    description: `Photography portfolio of Riccardo Calligaro`,
+    author: `@riccardocalligaro`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -54,8 +53,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `johndoe`,
+        name: `Riccardo Calligaro`,
+        short_name: `riccardocalligaro`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#3182ce`,
